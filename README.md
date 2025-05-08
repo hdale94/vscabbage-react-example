@@ -6,7 +6,7 @@ The React project is built with Vite and TypeScript.
 
 There are examples of functional components (sliders) that implement the useCabbageState hook to get and set the channel values.
 
-## Steps to
+## Steps to replace Cabbage UI with React build
 
 ### 1. Export the Example.csd file to VST3 effect.
 
