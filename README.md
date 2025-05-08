@@ -8,21 +8,21 @@ There are examples of functional components (sliders) that implement the useCabb
 
 ## Steps to replace Cabbage UI with React build
 
-### 1. Export the Example.csd file to VST3 effect.
+1.  Export the Example.csd file to VST3 effect.
 
-### 2. Move the exported VST3 file into a recognized folder of your host.
+2.  Move the exported VST3 file into a recognized folder of your host.
 
-#### Windows:
+    Windows:
 
-    C:/Program Files/Common Files/VST3
+        C:/Program Files/Common Files/VST3
 
-### 3. Run the “Build project” command in the "react"-folder.
+3.  Run the “Build project” command in the "react"-folder.
 
-### 4. Move the build (files in the dist-folder) into:
+4.  Move the build (files in the dist-folder) into:
 
-    C:/ProgramData/CabbageAudio/Example
+        C:/ProgramData/CabbageAudio/Example
 
-### 5. Load plugin in your host, and the plugin UI should be the React build.
+5.  Load plugin in your host, and the plugin UI should be the React build.
 
 ## Commands
 
