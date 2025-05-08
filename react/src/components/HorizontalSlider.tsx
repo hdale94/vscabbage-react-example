@@ -1,5 +1,5 @@
 import { InputHTMLAttributes } from "react";
-import { useCabbageState } from "../hooks/useCabbageState";
+import { useCabbageState } from "vscabbage-react";
 
 const HorizontalSlider = ({
 	channel,

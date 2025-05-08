@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { useCabbageState } from "../hooks/useCabbageState";
+import { useCabbageState } from "vscabbage-react";
 
 interface RangeSliderProps {
 	channelStart: string;

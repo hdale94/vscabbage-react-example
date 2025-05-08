@@ -1,5 +1,5 @@
 import { DetailedHTMLProps, InputHTMLAttributes, SVGProps } from "react";
-import { useCabbageState } from "../hooks/useCabbageState";
+import { useCabbageState } from "vscabbage-react";
 
 interface RotarySliderProps {
 	channel: string;

@@ -2,7 +2,7 @@ import "./App.css";
 import RangeSlider from "./components/RangeSlider";
 import RotarySlider from "./components/RotarySlider";
 import VerticalSlider from "./components/VerticalSlider";
-import { useGetCabbageFormData } from "./hooks/useGetCabbageFormData";
+import { useGetCabbageFormData } from "vscabbage-react";
 
 function App() {
 	const { data: formData } = useGetCabbageFormData();
